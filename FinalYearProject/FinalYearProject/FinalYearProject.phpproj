@@ -37,9 +37,8 @@
     <Folder Include="PHP\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="admin.html" />
-    <Content Include="admin_01.html" />
-    <Content Include="allocation.html" />
+    <Content Include="admin.php" />
+    <Content Include="allocation.php" />
     <Content Include="clientProfile.html" />
     <Content Include="css\adminButtons.css" />
     <Content Include="css\admin_css.css" />
@@ -64,7 +63,7 @@
     <Content Include="css\profile_css.css" />
     <Content Include="css\topBarStyle.css" />
     <Content Include="currentVacancies.html" />
-    <Content Include="current_vacancies.html" />
+    <Content Include="current_vacancies.php" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

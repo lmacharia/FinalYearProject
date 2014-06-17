@@ -11,8 +11,6 @@ include_once("PHP/reuse_functions.php");
 <link rel="stylesheet" href="css/login_css.css" type="text/css">
 <link rel="stylesheet" href="css/clientRegistration.css" type="text/css">
 <link rel="stylesheet" href="css/candidateRegistration.css" type="text/css">
-<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-<link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css">
 </head>
 
 <body>
