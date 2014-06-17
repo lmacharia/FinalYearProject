@@ -23,8 +23,8 @@ include_once("PHP/reuse_functions.php");
         <input type="text" class="tftextinput" name="q" placeholder="  Search..." maxlength="120">
       </form>
       <ul>
-        <li> <a href='index.html'><span>Home</span></a></li>
-        <li class='active'> <a href='login3.html'><span>Register</span></a></li>
+        <li> <a href='index.php'><span>Home</span></a></li>
+        <li class='active'> <a href='login.php'><span>Register</span></a></li>
       </ul>
     </div>
     <div id="imageHolder"></div>
@@ -33,13 +33,13 @@ include_once("PHP/reuse_functions.php");
   <div id="contentArea">
     <div id="ie-test-loginArea">
       <ul id="boxLinks-loginArea" class="group-loginArea">
-           <li><a href="#box5">Join Us</a></li>
-           <li><a href="#box6">Client Registration</a></li>
-           <li><a href="#box7">Candidate Registration</a></li>
-           <li><a href="#box8">Login</a></li>
+           <li><a href="#box1">Join Us</a></li>
+           <li><a href="#box2">Client Registration</a></li>
+           <li><a href="#box3">Candidate Registration</a></li>
+           <li><a href="#box4">Login</a></li>
       </ul>
       <div id="box-loginArea">
-        <div id="box5" class="box1-loginArea"><h1>Why Us?</h1><br>
+        <div id="box1" class="box1-loginArea"><h1>Why Us?</h1><br>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
@@ -90,53 +90,54 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
     </div> 
     <p>Should you wish to discuss our Services further, our team is always available to respond to your call or email. Please see the <a href="#">Contact</a> area of this site for details.</p>
     <!--[if IE]><b>.</b><![endif]--></div>
-        <div id="box6" class="box1-loginArea"> <form action="" class="register">
+        <div id="box2" class="box1-loginArea"> <form name="clientReg" method="post" action="InsertClient.php "class="register">
+       
             <h1>Client Registration Form</h1>
             <fieldset class="row1">
                 <p>
                     <label>Company Name
                     </label>
-                    <input type="text" class="long"/>
+                    <input type="text" id="cmpyName" name="cmpyName"class="long"/>
                 </p>
                                 <p>
                     <label>First Name *
                     </label>
-                    <input type="text" class="long"/>
+                    <input type="text" id="fname" name="fname" class="long"/>
                 </p>
                                 <p>
-                    <label>Last Name *
+                    <label>Surname *
                     </label>
-                    <input type="text" class="long"/>
+                    <input type="text" id="lname" name="lname"class="long"/>
                 </p>
                 <p>
                     <label>Address *
                     </label>
-                    <input type="text" class="long"maxlength="20"/>
+                    <input type="text" id="address" name="address" class="long"maxlength="20"/>
                 </p>
                 <p>
                     <label>Postcode *
                     </label>
-                    <input type="text"/>
+                    <input type="text" id="postcode" name="postcode"/>
                 </p>
                <p>
                     <label>Email *
                     </label>
-                    <input type="text" maxlength="10"/>
+                    <input type="text" id="email" name="email" maxlength="10"/>
                 </p>
                <p>
                     <label>Contact Number*
                     </label>
-                    <input type="text" maxlength="10"/>
+                    <input type="text" id="cntNumber" name="cntNumber"maxlength="10"/>
                 </p>
               <p>
                     <label>Description of Service*
                     </label>
-                <textarea type="text" maxlength="300" class="long"></textarea>
+                <textarea type="text" id="serviceDes" name="serviceDes"maxlength="300" class="long"></textarea>
                 </p>
                 <p>
                     <label class="optional">Website
                     </label>
-                    <input class="long" type="text" value="http://"/>
+                    <input class="long" type="text" id="website" name="website" value="http://"/>
 
                 </p>
             </fieldset>
@@ -150,7 +151,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
             </fieldset>
             <div><button class="button">Register &raquo;</button></div> 
         </form> <!--[if IE]><b>.</b><![endif]--></div>
-        <div id="box7" class="box1-loginArea"> <form action="" class="register">
+        <div id="box3" class="box1-loginArea"> <form action="" class="register">
             <h1>Candidate Registration Form</h1>
             <fieldset class="row2">
                 <legend>Personal Details
@@ -352,7 +353,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
             </fieldset>
             <div><button class="button">Register &raquo;</button></div>
         </form><!--[if IE]><b>.</b><![endif]--></div>
-        <div id="box8" class="box1-loginArea"><form action="" class="register" method="post" name="loginForm" id="loginForm">
+        <div id="box4" class="box1-loginArea"><form action="" class="register" method="post" name="loginForm" id="loginForm">
             <?php
                 
             if(isset($_POST['loginBtn'])){

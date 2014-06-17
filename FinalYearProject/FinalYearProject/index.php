@@ -37,8 +37,8 @@ b {
         <input type="text" class="tftextinput" name="q" placeholder="  Search..." maxlength="120">
       </form>
       <ul>
-        <li class='active'> <a href='index.html'><span>Home</span></a></li>
-        <li> <a href='login3.php'><span>Register</span></a></li>
+        <li class='active'> <a href='index.php'><span>Home</span></a></li>
+        <li> <a href='login.php'><span>Register</span></a></li>
       </ul>
     </div>
     <div id="imageHolder"></div>
