@@ -1,0 +1,81 @@
+/*CSS for editing buttons*/
+#buttonArea {
+	height: 55px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid;
+	padding-left: 30px;
+	clear:both;
+}
+
+#buttonArea ul {
+list-style-type:none;
+}
+
+#buttonArea li{
+float:left;
+width:auto;
+height:auto;
+margin: 10px 10px 0px 0px;
+}
+
+#addButton {
+	background-image: url(../images/addButton.png);
+	background-size:100px 35px;
+	background-repeat: no-repeat;
+	display:block;
+    height:40px;
+    width:120px;
+	text-indent:-9999px;
+	}
+	
+#addButton:hover{
+	background-image: url(../images/addHover.png);
+	background-repeat: no-repeat;
+	background-size:100px 35px;
+	display:block;
+    height:40px;
+    width:120px;
+	text-indent:-9999px;
+	}
+	
+#saveButton {
+	background-image: url(../images/saveButton.png);
+	background-repeat: no-repeat;
+	background-size:100px 35px;
+	display:block;
+    height:40px;
+    width:120px;
+	text-indent:-9999px;
+	}
+	
+#saveButton:hover{
+	background-image: url(../images/saveHover.png);
+	background-repeat: no-repeat;
+	background-size:100px 35px;
+	display:block;
+    height:40px;
+    width:120px;
+	text-indent:-9999px;
+	}
+
+#cancelButton {
+	background-image: url(../images/cancelButton.png);
+	background-repeat: no-repeat;
+	background-size:100px 35px;
+	display:block;
+    height:40px;
+    width:120px;
+	text-indent:-9999px;
+	}
+	
+#cancelButton:hover{
+	background-image: url(../images/cancelHover.png);
+	background-repeat: no-repeat;
+	background-size:100px 35px;
+	display:block;
+    height:40px;
+    width:120px;
+	text-indent:-9999px;
+	}	

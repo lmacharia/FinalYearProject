@@ -1,0 +1,212 @@
+/* CSS for the tab area at the top including conditionals */
+
+<!--[if IE]>
+<style type="text/css">
+
+.box {
+    display: block;
+}
+
+#box {
+    overflow: hidden;
+    position: relative;
+}
+
+b {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width:1px;
+    height: 251px;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+</style>
+<![endif]-->
+
+#ie-test-topArea {
+    position: relative;
+    width: 100%;
+}
+
+#boxLinks-topTabs {
+    list-style: none;
+    overflow: hidden;
+}
+
+#boxLinks-topTabs li {  
+    display: inline;
+}
+
+#boxLinks-topTabs li a {
+	padding-left:13px;
+	padding-top: 5px;
+    text-decoration: none;
+    border: 1px solid #A6A6A6;
+    float: left; 
+	display: block;
+    position:relative;
+    width:212px;
+	height:20px;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+    color: #FFFFFF;
+    background: #26466D;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#boxLinks-topTabs li a:hover {
+    background: #ccc;
+    color: #26466D;
+}
+
+#box-topTabs {
+    height: 300px;
+    border-bottom: 1px solid #A6A6A6;
+    overflow: hidden;
+    position: relative;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 14px;
+    width:680px;
+    background-color:#EDEDED;
+    /*top: -1px; */
+}
+
+.box-topTabs {
+    display: none;
+    height: 300px;
+    overflow: auto;
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+    padding-left: 10px;
+    padding-top: 5px;
+    
+}
+
+.box1-topTabs{    
+    display: none;
+    height: 300px;
+    overflow: auto;
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/* CSS for main content tabs including conditionals */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+        
+#ie-test {
+    position: relative;
+    width: 100%;
+}
+
+#boxLinks-bottomTabs {
+    list-style: none;
+    overflow: hidden;
+	margin-left: 8px;
+}
+
+#boxLinks-bottomTabs li {  
+    display: inline;
+}
+
+#boxLinks-bottomTabs li a {
+    padding-left:13px;
+	padding-top: 5px;
+    text-decoration: none;
+    border: 1px solid #A6A6A6;
+    float: left; 
+	display: block;
+    position:relative;
+    width:233px;
+	height:20px;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+    color: #FFFFFF;
+    background: #26466D;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#boxLinks-bottomTabs li a:hover {
+    background: #ccc;
+    color: #26466D;
+}
+
+#box-bottomTabs {
+    height: 400px;
+    overflow: hidden;
+    padding: 0px 30px 0px 30p;
+    position: relative;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 14px;
+    background-color:#EDEDED;
+    margin-left: 8px;
+    /*top: -1px; */
+}
+    
+.box-bottomTabs {
+    display: none;
+    height: 400px;
+    overflow: auto;
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+    padding-left: 10px;
+    padding-top: 5px;
+    
+}
+
+#box1:target,
+#box2:target,
+#box3:target,
+#box4:target,
+#box5:target,
+#box6:target,
+#box7:target {
+    display: block;
+}
+
+.box1-bottomTabs {    
+    display: none;
+    height: 400px;
+    overflow: auto;
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/*CSS Buttons*/
+#buttonArea {
+	height: 55px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid;
+	padding-left: 30px;
+	clear:both;
+}
+
+#buttonArea ul {
+list-style-type:none;
+}
+
+#buttonArea li{
+float:left;
+width:auto;
+height:auto;
+margin: 10px 10px 0px 0px;
+}
+	

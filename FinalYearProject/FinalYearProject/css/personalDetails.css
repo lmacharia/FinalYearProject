@@ -1,0 +1,50 @@
+/*CSS for personal details of cadidates*/	
+		th, td {
+        border: 0px solid #cccccc;
+        font: normal 12px/150% Arial, Helvetica, sans-serif; 
+      }
+      
+      #personalInfo th {
+        width:80px;
+        padding-left:5px;
+        font-weight: bold;
+        text-align: right;
+      }
+      
+      #personalInfo td {
+        width:150px;
+        padding-left:5px;
+      }
+      
+      .tableHeading{
+        font-size: 16px;
+        font-weight: bold;
+        color: orange;
+      }
+
+/*CSS for security section*/
+      
+      #securityInfo th {
+        width:115px;
+        padding-left:5px;
+        font-weight: bold;
+        text-align: right;
+      }
+      
+      #securityInfo td {
+        width:150px;
+        padding-left:5px
+      }
+	  
+/*CSS for documents section in top bar*/
+#docsInfo th {
+        width:125px;
+        padding-left:5px;
+        font-weight: bold;
+        text-align: right;
+      }
+      
+      #docsInfo td {
+        width:20px;
+        padding-left:5px
+      }

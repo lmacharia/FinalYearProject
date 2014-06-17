@@ -1,0 +1,318 @@
+
+/* CSS for the layout of the page */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#container {
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+}
+#header {
+	height: 200px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+}
+#logo {
+	float: left;
+	height: 200px;
+	width: 350px;
+	border: 0px solid;
+	background-image: url(../images/logo.gif);
+	background-repeat: no-repeat;
+	background-position: 5% 15px;
+}
+#topBar {
+	float: right;
+	height: 50px;
+	width: 640px;
+	border: 0px solid;
+}
+#imageHolder {
+	float: right;
+	height: 300px;
+	width: 645px;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+	background-image: url(../images/image3.png);
+}
+
+#imageArea {
+	height: 110px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+	padding-bottom: 40px;
+	padding-left: 15px;
+	
+}
+#quoteArea {
+	float: left;
+	height: 100px;
+	width: 200px;
+	border: 0px solid;
+}
+#contentArea {
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border-width: 0px;
+	border-style: solid;
+}
+#footer {
+    height: 30px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #60A7DB;
+    text-align: center;
+    color: white;
+    font-size:12px;
+    font-weight: bold;
+    font-family: "Arial", Gadget, sans-serif;
+    padding-top: 15px;
+	clear:both;
+}
+
+/* CSS for the menu bar at the top left hand side */
+#topBar:before {
+  content: '';
+  display: block;
+}
+#topBar:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#topBar ul {
+  list-style-type: none;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  font-family: "Arial", Gadget, sans-serif;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #A79787;
+  float:right;
+}
+#topBar ul:before {
+  content: '';
+  display: block;
+}
+#topBar ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#topBar li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+#topBar li a {
+  float: left;
+  color:  	#005C99;
+  text-decoration: none;
+  height: 24px;
+  padding: 9px 15px 0;
+  font-weight: normal;
+}
+#topBar li:hover,
+#topBar .active {
+  text-decoration: none;
+  border-bottom: 2px solid #A79787;
+}
+#topBar li:hover a {
+  color: #000080;
+}
+#topBar .active a {
+  font-weight: 700;
+}
+
+.tftextinput{
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+        border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+        float:right;
+        margin-top: 7px;
+	}
+.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+        border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+        float: right;
+        margin-top: 7px;
+	}
+.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	
+/* CSS for main content tabs including conditionals */
+* { 
+    margin: 0; 
+	padding: 0; 
+}       
+#ie-test { 
+    position: relative; 
+    width: 100%; 
+}
+#boxLinks { 
+    list-style: none; 
+    overflow: hidden; 
+} 
+#boxLinks li {  
+    display: inline; 
+}
+#boxLinks li a { 
+    padding: 10px 10px; 
+    color: black; 
+    text-decoration: none; 
+	border: 1px solid #ccc; 
+    float: left; display: block;
+	margin-left: -1px; 
+	position:relative; 
+	width:229px;
+	left: 1px;
+	border-top-left-radius:15px; 
+    border-top-right-radius: 15px;
+	background: #60A7DB;
+	color: #fff;
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+#boxLinks li a:hover { 
+    color: #fff; 
+	background: #C0C0C0; 
+}
+#box { 
+    height: 700px; 
+    border: 1px solid #ccc; 
+    overflow: hidden; 
+	padding: 0px 30px 0px 30p; 
+	position: relative; 
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	/*top: -1px; */
+}	
+.box { 
+    display: none; 
+    height: 700px; 
+	overflow: auto; 
+	display: block; 
+	position: relative; 
+	overflow-x: hidden; 
+	padding-left: 10px;
+	padding-top: 5px;
+	
+}
+#box1:target, 
+#box2:target, 
+#box3:target,
+#box4:target { 
+    display: block;
+}
+.box1 {    
+    display: none; 
+    height: 700px; 
+	overflow: auto; 
+	display: block; 
+	position: relative; 
+	overflow-x: hidden; 
+	padding-left: 10px;
+	padding-top: 5px;
+}
+/* CSS for content tabs*/
+ .box1 h1{
+    color: #EE8833;
+    font-family: "Arial", Gadget, sans-serif;
+  }
+  .box1 p{
+    color: #003367;
+    font-size: 13px;
+    font-family: "Arial", Gadget, sans-serif;
+    font-weight: normal;
+  }
+ 
+ ul.list {
+    color: #5B5B5B;
+    font-size: 13px;
+    font-family: "Arial", Gadget, sans-serif;
+    font-weight: normal;
+  }
+ .box1 h3{
+    color: #000000;
+    font-size: 14px;
+    font-family: "Arial", Gadget, sans-serif;
+    font-weight: bold;
+  }
+  #mapArea h4{
+      font-family: "Arial", Gadget, sans-serif;
+      color: #FFB739;
+      font-size: 12px;
+      }
+
+/* CSS for map in the contact us box*/
+#mapArea{
+    float: left;
+    width:300px;
+}
+#contactUsInfo{
+	float:left;
+    width:510px;
+}
+
+.list li {
+    color: #EE8833;
+    font-size: 13px;
+    font-family: "Arial", Gadget, sans-serif;
+    font-weight: normal;
+    list-style-type: circle;
+	margin-left: 50px;
+	margin-bottom: 5px;
+  }
+#contentImage1, #contentImage2, #contentImage3{
+	float: left;
+	height: 200px;
+	margin-right: 24px;
+	}
